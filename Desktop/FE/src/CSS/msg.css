@@ -1,0 +1,134 @@
+.msg_div table{
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    width: 1200px;
+    margin-top: 0;
+}
+.msg_div table td{ 
+    border: 1px solid black; 
+}
+.msg_row1{
+    height: 140px;
+}
+.msg_row2{
+    height: 800px;
+}
+.msg_col1{
+    width: 300px;
+}
+.msg_row1 .msg_col1{
+    font-size: 50px;
+    text-align: center;
+}
+.msg_row2 .msg_col1{
+    position: relative;
+    height: 800px;
+    border: none;
+    overflow-y: auto;
+}
+    
+.message_pro{
+    width: 120px;
+    border-radius: 60px;
+    margin-left: 20px;
+    float: left;
+
+}
+.message_pro_name{
+    font-size: 30px;
+    width: 300px;
+    padding-left: 20px;
+    float: left;
+}
+.pro_button{
+    float:right;
+    padding: 7px;
+    /* border-radius: 5px; */
+    font-size: 25px;
+    border: 0.5px solid;
+    margin-top: 70px;
+}
+.msg_left{
+    border: none;
+    border-bottom: 1px solid;
+    height: 120px; 
+    
+}
+.left1{
+    font-size: 30px;
+    padding: 0;
+    color: black;
+}
+.left2{
+    font-size: 20px;
+    padding-left: 15px;
+    color: black;
+}
+.left3{
+    font-size: 20px; 
+    color: black;
+    text-align: right;
+}
+.chat{
+    background-color: beige;
+    height: 500px;
+    width: 895px; 
+    padding: 20px;
+    overflow-y: auto;
+}
+.in_text{
+    width: 840px;
+    border-left: none;
+    margin-top: 0;
+    border-right: none;
+    height: 50px;
+    font-size: large;
+    font-weight: bolder;
+
+}
+.in_sub{
+    width: 55px;
+    height: 50px;
+    border-right: none; 
+    margin-top: 0;
+}
+.t_message{
+    padding: 10px;
+    margin: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+}
+.m_message{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+}
+.mm{
+    text-align: right;
+}
+.tt{ 
+    text-align: left;
+}
+.b_area{ 
+    height: 250px;
+    width: auto;
+}
+.ac{
+    width: 80px;
+    height: 80px;
+    margin: 15px;
+    border-radius: 40px;
+    border: none;
+    background-color: gray;
+
+}
+.b_img{
+    width: 55px;
+    height: 55px;
+}

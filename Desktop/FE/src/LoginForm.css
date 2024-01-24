@@ -1,0 +1,98 @@
+.LoginInput{
+    width:60%;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    top: 0px;
+    border: 1px solid #A9A9A9;
+  }
+.SignUp{
+  font-size: 90%;
+  left: 20%;
+  margin-right: 10%;
+  text-decoration: none;  /** 하이퍼 링크 밑줄 없앰**/
+  color: gray;
+  }
+.SignUp:hover{
+    text-decoration: underline;
+  }
+.IdPwFind{
+  font-size: 90%;
+  left: 10%;
+  text-decoration: none;  /** 하이퍼 링크 밑줄 없앰**/
+  color: gray;
+    
+  }
+.IdPwFind:hover{
+  text-decoration: underline;
+  }
+.LoginArea{
+  text-align: center;
+  border: 1px solid black;
+  width:35%;
+  height: 650px;  
+  padding:8% 0;
+  margin-top: 5%;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px 3px gray; 
+    
+  }
+.Logo{
+  width:60%;
+  position: relative;
+  bottom: 30px;
+  right:2px;
+}
+.pageArea{
+  display: flex; /**/
+  justify-content: center; /*중앙 정렬 display:flex일때만 사용 가능*/
+}
+.LogFormBt{
+  width:60%;
+  height: 35px;
+  outline: none;
+  border: none;
+  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Hahmlet', serif;
+  background-color: #FED754;
+  font-size: 20px;
+  border-radius: 20px;
+  position: relative;
+  top:20px;  
+  }
+.LogFormBt:active{
+  outline-color: transparent;
+  outline-style:solid;
+  
+}
+.LogFormBt:hover{
+  background-color: #dde335;
+}
+
+.simLoginBtn{
+  border: 1px solid rgb(173, 172, 172);
+  width: 300px;
+  height:180px;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-left: 20%;
+}
+.simLoginBtn button {
+  border: none;
+  background-color: transparent;
+}
+
+.naverBtn img{
+  width: 150px;  
+  height: 40px;
+}
+
+.kakaoBtn img{
+  width: 150px;
+  height: 40px;
+}
+.explain{
+  margin-top: 20px;
+  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Hahmlet', serif;
+}

@@ -1,0 +1,106 @@
+.hd_div{
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hd_bk{
+    border-radius: 10px;
+    border: none;
+    width: 780px;
+    background-color: rgb(219, 219, 219);  
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+}
+
+.s_div{
+    width: 780px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.searchbar{
+    width: 730px;
+    height: 40px;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.searchsubmit{
+    width: 50px;
+    height: 39px;
+    border-radius: 0px 19.5px 19.5px 0px;
+} 
+.searchbar:focus {
+    border-color: #caa62f; /* 원하는 포커스 시 색상으로 변경 */
+    border: 3px solid;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+.searchsubmit_img{
+    width: 35px;
+    height: 39px;
+    border-radius: 0px 19.5px 19.5px 0px;
+}
+
+.scr_div{
+    overflow-y: scroll;
+    width: 700px;
+    background-color: white; 
+    border: 2px solid;
+    height: 600px;
+}
+
+.scr_t{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+
+}
+
+.scr_t .col1{
+    padding-left: 40px;
+    width: 90px;
+}
+.scr_t .col2{
+    width: 40px;
+    padding-left: 20px;
+}
+.pay_info_div{
+    border-radius: 20px;
+    width: 600px;
+    height: 180px;
+    border: 1px solid;
+}  
+.pd_info_div{
+    border: 1px solid;
+    height: 400px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.p_i_1{
+    border: 1px solid;
+    height: 100%;
+    width: 330px;
+    border-left: none;
+    border-bottom: none;
+    border-top: none; 
+    float: left;
+    padding: 20px;
+}
+
+.p_i_2{
+    float: left;
+    height: 100%;
+    text-align: center;
+    width: 260px; 
+}
+.phd_b{
+    background-color: rgb(173, 173, 173);
+    border-radius: 6px;
+    border: none;
+}

@@ -1,0 +1,43 @@
+.pagearea4{
+   width: 100%;
+   
+   
+}
+.writeArea{
+    
+    width: 700px;
+    height: 1200px;
+    border: #a9a9a9 solid 1px;
+    margin-top: 170px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 300px;
+    border-radius: 10px;
+    
+}
+
+.inputTitle{
+    width:700px;
+    margin-left: 70px;
+    font-size: 17px;
+}
+#p{
+    font-size: 17px;
+}
+
+.contentArea{
+    margin-left: 70px;
+}
+.Title{
+    width:500px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: #a9a9a9 solid 1px;
+    outline: none;
+    
+}
+.CKbox{
+    width:5px;
+    height:5px;
+}

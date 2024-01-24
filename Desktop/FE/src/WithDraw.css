@@ -1,0 +1,57 @@
+.WithDrawArea{
+    width: 600px;
+    height:500px;
+    border: black solid 1px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+.passwordChk{
+    position: relative;
+    width: 45%; /* 부모 너비에 맞추기 */
+    padding: 8px; /* 내부 여백 설정 */
+    margin-bottom: 15px; /* 아래 여백 설정 */
+    margin: auto; 
+    left:25%;
+    top:35%;
+    border-radius: 10px;
+}
+.phone-container{
+    position: relative;
+    left: 10%;
+    top:45%;
+}
+.InputArea{
+    width:130%;
+    border-radius: 10px;
+}
+.authButton{
+    position: relative;
+    margin-left: -70px;
+    bottom:13px;
+}
+.title{
+    position: relative;
+    text-align: center;
+    top: 20%;    
+}
+.submit{
+    position: relative;
+    top: 80px;
+    right: 280px;
+    width:100px;
+    background-color: #0095f6;;
+    color: white;
+    border-radius: 10px;
+    border:none;
+}
+.cancel{
+    position: relative;
+    top:80px;
+    right: 234px;
+    width:100px;
+    background-color: #0095f6;;
+    color: white;
+    border-radius: 10px;
+    border:none;
+}

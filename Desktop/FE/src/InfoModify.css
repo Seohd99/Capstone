@@ -1,0 +1,83 @@
+.ModiArea{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: black solid 1px;
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.3);
+    
+}
+.contentModi{
+    margin: 0 auto;
+    margin-left: 28%;
+    margin-top: 10%;
+}
+.ModiInputArea{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+.chkIDmodi-button{
+    padding: 10px 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #2196F3;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  width:150px;
+  position: relative;
+  left:75%;
+  bottom: 42px;
+}
+.submitinfoArea{
+    margin-left: 26%;
+    margin-top:5%;
+    width:350px;
+
+    
+}
+.submitModi{
+    padding: 10px 24px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #2196F3;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    width:150px;
+    margin-right: 20px;
+}
+.cancelModi{
+    padding: 10px 24px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #2196F3;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    width:150px;
+    position: relative;
+    left:3px;
+}
+.ModiTitle{
+    position: relative;
+    left:37%;
+    top:10%;
+}

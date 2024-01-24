@@ -1,0 +1,284 @@
+.MypageArea{
+    margin-left: auto;
+    margin-right: auto;
+    width: 780px;
+    height:600px;
+    border:black solid 1px;
+    border-radius: 10px;
+    overflow: auto;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.3);
+}
+.pageArea2{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.s_div{
+    margin-left: auto;
+    width: 780px;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+.searchbar{
+    width: 730px;
+    height: 40px;
+    border-radius: 20px 0px 0px 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+.searchsubmit{
+    width: 50px;
+    height: 39px;
+    border-radius: 0px 19.5px 19.5px 0px;
+} 
+.searchbar:focus {
+    border-color: #caa62f; /* 원하는 포커스 시 색상으로 변경 */
+    border: 3px solid;
+    border-radius: 20px 0px 0px 20px;
+  }
+
+.searchsubmit_img{
+    width: 35px;
+    height: 39px;
+    border-radius: 0px 19.5px 19.5px 0px;
+}
+.InfoArea{
+    width: 670px;
+    height: 250px;
+    border:black solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.3);
+}
+.profileImgChange{
+    margin: 5px 0 ;
+    font-weight: bold;
+    font-size: 15px;
+    color: #0095f6;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    left: 9%;
+    top: 58%;
+}
+.profileImgChange:hover{
+    color:#5382ce;
+}
+.profileImg-input{
+    display: none;
+}
+.profileImage-preview {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    bottom: -13%;
+    left: -7%;
+    margin: 0 auto; /* 중앙 정렬 */
+    min-width: 100px; /* 최소 너비 */
+    min-height: 100px; /* 최소 높이 */
+    max-width: 200px; /* 최대 너비 */
+    max-height: 200px; /* 최대 높이 */
+  }
+.PostArea{
+    width: 670px;
+    height: 250px;
+    border:black solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.3);
+    overflow: auto;
+
+}
+.ReviewArea{
+    width: 670px;
+    height: 250px;
+    border:black solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.3);
+    overflow: auto;
+  }
+.singleReview{
+    width: 300px;
+    height: 150px;
+}
+.CntArea{
+    position: relative;
+    left: 35%;
+    bottom: 45%;
+    width: 380px;
+    height: 130px;
+    
+
+}
+.postCnt{
+    position: relative;
+    left: 17%;
+    top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #0095f6;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+.followerCnt{
+    position: relative;
+    left: 46%;
+    bottom: 36px;
+
+    font-weight: bold;
+    font-size: 15px;
+    color: #0095f6;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+.followingCnt{
+    position: relative;
+    left: 75%;
+    bottom: 83px;
+
+    font-weight: bold;
+    font-size: 15px;
+    color: #0095f6;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+.reviewCnt{
+    position: relative;
+    left: 30%;
+    bottom: 71px;
+
+    font-weight: bold;
+    font-size: 15px;
+    color: #0095f6;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+.DoFollowing{
+    position: relative;
+    left: 55%;
+    bottom: 107px;
+    background-color: #0095f6;;
+    color: white;
+    border-radius: 10px;
+    border:none;
+}
+.DoFollowing:hover{
+    position: relative;
+    background-color: #0095f6;;
+    color: white;
+    border-radius: 10px;
+}
+
+.showID{
+    position: relative;
+    top:18%;
+    margin-left: 14%;
+}
+.IntroduceArea{
+    position: relative;
+    border: black solid 1px;
+    border-radius: 10px;
+    width:380px;
+    height: 55px;
+    left: 35%;
+    bottom: 38%;
+}
+.IntroduceBtn{
+    position: relative;
+    left:230px;
+    top:3px;
+    background-color: #0095f6;
+    color: white;
+
+    border-radius: 10px;
+    display: inline-block; /* 추가된 부분 */
+    margin-top: 10px; /* 원하는 간격으로 수정 */
+    padding: 5px 10px; /* 원하는 크기로 수정 */
+    border: none; /* 기본 테두리 제거 */
+    cursor: pointer; /* 커서 스타일 변경 */
+}
+.btn-image{
+    position:relative;
+    width:25px;
+    height: 30px;
+    border-radius: 10px;
+}
+.ModifyIntro{
+    width:380px;
+    height: 55px;
+    border-radius: 10px;
+}
+.save{
+    position: relative;
+    background-color: #0095f6;
+    left:383px;
+    bottom:50px;
+    border-radius: 10px;
+    display: inline-block; /* 추가된 부분 */
+    margin-top: 10px; /* 원하는 간격으로 수정 */
+    padding: 5px 10px; /* 원하는 크기로 수정 */
+    border: none; /* 기본 테두리 제거 */
+    cursor: pointer; /* 커서 스타일 변경 */
+}
+.singleReview{
+    position: relative;
+    border: black solid 1px;
+    border-radius: 10px;
+    width: 500px;
+    height: 100px;
+    left:13%;
+    margin-top: 50px;
+}
+.reviewContent{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.NewReviewTextarea{
+    margin-top: 10px;
+    position: relative;
+    left:13%;
+    width:500px;
+    height:100px;
+    border-radius: 10px;
+    
+}
+.ReviewWriteTitle{
+    position: relative;
+    margin-top: 50px;
+    left:13%;
+}
+.DeleteReviewButton{
+    position: relative;
+    border-radius: 10px;
+    margin-top: 39px;
+}
+.AddReviewButton{
+    position: relative;
+    top:25px;
+    left:15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.MypickButton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width:200px;
+    height: 50px;
+}
